@@ -49,6 +49,7 @@ Latihan 2 (Program menampilkan bilangan terbesar)
 -print("Bilangan terbesar adalah : ",max) print nilai terbesar, variabel max
 ```
 2).Berikut kode lengkapnya:
+
 ```
 print ('|-------------------------------------|')
 print ('|PROGRAM MENAMPILKAN BILANGAN TERBESAR|')
@@ -67,7 +68,9 @@ while a!=0:
 print ('Nilai terbesarya adalah :',max)
 ```
 3). Berikut Adalah Flowchartnya
+
 ![img](https://raw.githubusercontent.com/amirudin742/Labpy_3/master/Flowchart2.png)
 
 4). Berikut Adalah Hasilnya
+
 ![img](https://raw.githubusercontent.com/amirudin742/Labpy_3/master/Hasil2.png)
