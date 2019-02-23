@@ -40,7 +40,7 @@ print("Selesai")
 Latihan 2 (Program menampilkan bilangan terbesar)
 
 1).Alur Algoritmanya :
-````
+```
 -a=1 //variable a diisi 1, agar bisa masuk ke syarat while max=0 //variable max diisi 0
 -while a!=0 : looping while dengan syarat a bukan 0
 -if x > max : max = a proses if untuk mencari nilai terbesar
