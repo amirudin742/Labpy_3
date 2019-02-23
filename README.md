@@ -74,3 +74,42 @@ print ('Nilai terbesarya adalah :',max)
 4). Berikut Adalah Hasilnya
 
 ![img](https://raw.githubusercontent.com/amirudin742/Labpy_3/master/Hasil2.png)
+
+Program 1 (Program menghitung laba pengusaha)
+
+1).Alur Agoritmanya :
+```
+-x=100000000 modal 100,000,000, variable x
+-sum=0 variable untuk menjumlah total laba
+-y=0 variable untuk masa bulan
+-lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x) * .5, int(x) * .2] 
+*variable untuk jumlah laba perbulan, 
+ dipisahkan dengan koma, tipe data integer
+-for i in lb : looping for indexs i, dengan mengambil data dari lb
+-sum=sum+i rumus untuk menghitung total laba perbulan
+-y+=1 masa bulan, tiap looping menambah 1
+-print("laba bulan ke-", y ,"sebesar :", i ) print : y = ambil masa bulan, i = ambil dari data yg ada di dalam lb
+-print("Total laba adalah :", sum) print total laba
+-Tampilkan hasil kelayar
+```
+2).Berikut kode lengkapnya :
+```
+x=100000000
+sum=0
+y=0
+lb = [int(0), int(0), int(x) * .1, int(x) * .1, int(x) * .5, int(x) * .5, int(x) * .5, int(x) * .2]
+print('Modal awal seorang pengusaha        :',x)
+for i in lb :
+    sum=sum+i
+    y+=1
+    print('Laba bulan ke-', y ,'sebesar            :', i)
+
+print('Total laba yang didapat adalah      :', sum)
+```
+3).Berikut Adalah Flowchatnya: 
+
+![img](https://raw.githubusercontent.com/amirudin742/Labpy_3/master/Flowchart3.png)
+
+4). Berikut Adalah Hasilnya
+
+![img](https://raw.githubusercontent.com/amirudin742/Labpy_3/master/Hasil3.png)
